@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<title> BSIT-1 </title>
+			<style>
+				
+				#bg{
+					object-fill: cover;
+					height: 100%;
+					width: 100%;
+				    background-size: cover;
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					
+					
+				}
+				
+			<!--	#bsit{
+					color: #F3EEEA;
+					font-family: poppins;
+					font-weight: bold;
+					font-size: 50px;
+					position: absolute;
+					top: 150px;
+					right: 800px;
+					z-index: 2;
+				} -->
+				
+				.square{
+					height: 450px;
+					width: 800px;
+					background-color: black;
+					opacity: 0.3;
+					position: absolute;
+					top: 190px;
+					right: 580px;
+					filter: blur(1.5px);
+					box-shadow: 3px 3px 25px black;
+					transition: filter, 0.8s;
+					z-index: 1;
+					border-radius: 15px;
+	
+				}
+				
+					.square:hover{
+					filter: blur(0px);
+					}
+				
+				body{
+					
+				}
+				
+				#username{
+					color: #F3EEEA;
+					font-family: poppins;
+					font-weight: normal;
+					font-size: 20px;
+					position: absolute;
+					top: 325px;
+					right: 1225px;
+					z-index: 2;
+					
+				}
+				
+				#password{
+					color: #F3EEEA;
+					font-family: poppins;
+					font-weight: normal;
+					font-size: 20px;
+					position: absolute;
+					top: 425px;
+					right: 1230px;
+					z-index: 2;
+					
+				}
+				
+				 input[type=password] {
+				    width: 690px;
+				    padding: 12px 20px;
+				    margin: 9px 0;
+				    display: inline-block;
+				    border: 3px solid #607274;
+				    box-sizing: border-box;
+					color: black;
+					border-radius: 10px;
+					background-color: lightgrey;
+					position: absolute;
+					top: 465px;
+					right: 638px;
+					z-index: 2;
+					transition: 0.5s;
+				}
+					input[type=password]::placeholder{
+						color: grey;
+					}
+				
+					input[type=password]:hover{
+						box-shadow: 1px 1px 10px white;
+					}
+				
+				input[type=text]{
+					width: 690px;
+				    padding: 12px 20px;
+				    margin: 9px 0;
+				    display: inline-block;
+				    border: 3px solid #607274;
+				    box-sizing: border-box;
+					color: black;
+					border-radius: 10px;
+					background-color: lightgrey;
+					position: absolute;
+					top: 365px;
+					right: 638px;
+					z-index: 2;
+					transition: 0.5s;
+				}
+				
+					input[type=text]::placeholder{
+						color: grey;
+					}
+					
+					input[type=text]:hover{
+					box-shadow: 1px 1px 10px white;					
+					
+					}
+				
+				#loginButton{
+					background-color: #324c5f;
+					width: 100px;
+					height: 35px;
+					font-family: poppins;
+					font-weight: normal;
+					color: #EBE3D5;
+					border: none;
+					border-radius: 5px;
+					cursor: pointer;
+					position: absolute;
+					top: 545px;
+					right: 640px;
+					z-index: 2;
+					transition: background-color, color, 0.5s;
+				}
+					#loginButton:hover{
+						color: #324c5f;
+						background-color: #EBE3D5;
+						box-shadow: 1px 1px 10px white;
+					}
+				
+				#LOGIN{
+					color: #F3EEEA;
+					font-family: poppins;
+					font-weight: bold;
+					font-size: 50px;
+					position: absolute;
+					top: 165px;
+					right: 1092px;
+					z-index: 2;
+				}
+				
+				#desc{
+					color: #EBE3D5;
+					font-family: poppins;
+					font-weight: normal;
+					font-size: 18px;
+					position: absolute;
+					top: 265px;
+					right: 1015px;
+					z-index: 2;
+				}
+				
+				.container{
+					color: #EBE3D5;
+					font-family: poppins;
+					font-weight: normal;
+					background-color: #69757e;
+					cursor: pointer;
+					position: absolute;
+					top: 548px;
+					right: 1183px;
+					z-index: 2;
+					transition: 0.5s;
+				}
+					.container:hover{
+						text-shadow: 1px 1px 5px #EBE3D5;
+					}
+				
+				#fp{
+					color: #EBE3D5;
+					font-family: poppins;
+					font-weight: normal;
+					font-size: 13px;
+					cursor: pointer;
+					position: absolute;
+					top: 438px;
+					right: 645px;
+					z-index: 2;
+				}
+				
+				
+				
+			</style>
+	</head>
+<body>
+	<div class="bg">
+	<img id="bg"src="C:\Users\Andrei\Desktop\bsit 2023-2024\1st sem\html\for cc101\1\LOGIN PAGE\BG\bg.jpg">
+	</div>
+	
+	
+	<!--<h1 id="bsit">BSIT-1</h1>-->
+	
+	<form action="C:\Users\Andrei\Desktop\bsit 2023-2024\1st sem\html\for cc101\1\FIRST PAGE\FIRST PAGE.html" method="post">
+		<div class="containerLogin">
+				
+				<div class="square"> </div>
+				
+				<h2 id="LOGIN"> Welcome </h2>
+				<h2 id="desc"> Sign in to your account to continue </h2>
+				
+			<h1 id="username"> Username </h1>
+			<input type="text" placeholder="Enter Username" name="uname" required>
+			
+			<h1 id="password"> Password </h1>
+			<input type="password" placeholder="Enter Password" name="passw" required>
+		
+			<a href="C:\Users\Andrei\Desktop\bsit 2023-2024\1st sem\html\for cc101\1\FIRST PAGE\FIRST PAGE.html"><button type="submit" id="loginButton"> Sign in </button></a>
+			
+			<label class="container">
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+			
+			<a href="https://www.facebook.com/fsneax1/"><p id="fp"> Forgot password? </p></a>
+			
+		</div>
+	</form>
+
+
+</body>
+</html>
